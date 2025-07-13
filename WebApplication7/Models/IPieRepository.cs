@@ -1,6 +1,6 @@
 ﻿namespace WebApplication7.Models;
 
-public interface IRepository
+public interface IPieRepository
 {
     IEnumerable<Pie> AllPies { get;  }
     IEnumerable<Pie> PiesOfTheWeek { get; }
